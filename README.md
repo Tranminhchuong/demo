@@ -9,7 +9,7 @@
 <script>
 function myMap() {
     var mapOptions = {
-        center: new google.maps.LatLng(51.5, -0.12),
+        center: new google.maps.LatLng(10.7647333,106.694847,897),
         zoom: 10,
         mapTypeId: google.maps.MapTypeId.HYBRID
     }
@@ -17,7 +17,7 @@ var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 }
 </script>
 
-<script src="https://www.google.com/maps/@10.987431,106.6575998,162675m/data=!3m1!1e3"></script>
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 
 </body>
 </html>
